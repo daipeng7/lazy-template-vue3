@@ -6,7 +6,7 @@
         "preview": "vite preview",
         "serve": "vite preview",
         "prepare": "husky install",
-        "release": "standard-version && git push --follow-tags"
+        "release": "standard-version && git push --tags"
     },
     "dependencies": {
         "axios": "^0.21.1",
